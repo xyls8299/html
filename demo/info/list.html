@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>e秀-秀出你的精彩</title>
+  <meta name="keywords" content="h5页面,h5编辑器,海报模板,免费模板,相册设计"/>
+  <meta name="description" content="e秀是一个专业的H5场景制作平台，致力于微信营销推广，专业场景制作、企业宣传、电子杂志、音乐相册、节日贺卡、邀请函等一键生成H5酷炫页面。" />
+  <link rel="stylesheet" href="css/list.css">
+  <script src="js/hotcss/hotcss.js"></script>
+</head>
+<body>
+  <div class="page">
+    <div class="list">
+      <h2>热门作品</h2>
+      <ul class="clear">
+        <li><a href="http://city.world-sensor.com/h5/saZ4232leKivqnWnr3SGmrqetKeHaYaor4qqooK1hsmxzJDdiNt4bg.html" title="高端邀请函"><img src="images/pro1.jpg" alt="高端邀请函"><span>高端邀请函</span></a></li>
+        <li><a href="http://put.hywfgroup.com/h5/saZ4232leKivqnWnr3SGmrCIsKmIe3ecr6DMo4O4gsmxzIiUiNt4bg.html" title="情人节"><img src="images/pro2.jpg" alt="情人节"><span>情人节</span></a></li>
+        <li><a href="http://ui8q.sznbfs.com/h5/saZ4232leKivqnWnr3SGmrqrqKeSpH5gr6O-o4SoismxzIiViNt4bg.html
+        " title="国庆节家纺活动"><img src="images/pro3.jpg" alt="国庆节家纺活动"><span>国庆节家纺活动</span></a></li>
+        <li><a href="http://upon.51banjia.net.cn/h5/saZ4232leKivqnWnr3SGmrqevZiIfnqnr6CxboO1csmxzHiWiNt4bg.html
+        " title="2017春季包包大作战"><img src="images/pro4.jpg" alt="2017春季包包大作战"><span>2017春季包包大作战</span></a></li>
+      </ul>
+    </div>
+    <footer class="footer clear">
+      <img src="images/code.jpg" alt="相册设计" class="code" />
+      <ul>
+        <li><span class="left">客服热线：</span>0755-2848-4911</li>
+        <li><span class="left">商务合作：</span>0755-2848-4911</li>
+        <li><span class="left">高级定制：</span>0755-2848-4911</li>
+        <li><span class="left">QQ：</span>2796343667</li>
+        <li><span class="left">QQ：</span>379214306</li>
+      </ul>
+    </footer>
+  </div>
+  <script type="text/javascript">
+		var page = {
+			show: function() {
+				document.body.scrollTop = sessionStorage.getItem('pagePos');
+			},
+			hide: function() {
+				sessionStorage.setItem('pagePos', document.body.scrollTop);
+			}
+		};
+
+		window.onload = function() {
+			page.show();
+
+      if ('onpagehide' in window) {
+        window.addEventListener('pagehide', page.hide, false);
+      } else {
+        window.addEventListener('beforeunload', page.hide, false);
+      }
+		};
+	</script>
+</body>
+</html>

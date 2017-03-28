@@ -1,0 +1,54 @@
+
+.page{
+  width: $pageWidth;
+  max-width: px2rem(750);
+  margin: 0 auto;
+  color:#30302f;
+}
+
+.header{
+  $logoWidth: px2rem(85);
+  min-height: px2rem(96);
+  padding-left: px2rem(24);
+  padding-top: px2rem(10);
+  position: relative;
+  .logo{
+    width: $logoWidth;
+    height: $logoWidth;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .reg{
+    position: absolute;
+    width: px2rem(200);
+    height: px2rem(56);
+    line-height: px2rem(56);
+    background: #fc9605;
+    box-shadow: 0 0 2px 1px #fc9605;
+    color: #fff;
+    border-radius: px2rem(28);
+    font-size: px2rem(40);
+    text-align: center;
+    top: px2rem(24);
+    right: px2rem(25);
+  }
+}
+
+.footer{
+  padding: px2rem(46) px2rem(30);
+  color: #fff;
+  font-size: px2rem(32);
+  background: linear-gradient(#325479, #464479);
+  ul{
+    width: px2rem(450);
+    float:left;
+    line-height: 1.6;
+  }
+  img{
+    width: px2rem(227);
+    height: px2rem(227);
+    float: right;
+  }
+}

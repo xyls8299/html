@@ -1,0 +1,83 @@
+@import 'reset.scss';
+@import 'config.scss';
+@import 'layout.scss';
+
+
+.banner{
+  width: px2rem(750);
+  height: px2rem(392);
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.main{
+  .item{
+    padding: px2rem(48) px2rem(78);
+    text-align: center;
+    h2{
+      color: #fc9605;
+      font-size: px2rem(48);
+      padding: px2rem(36) 0;
+    }
+    p{
+      font-size: px2rem(30);
+      line-height: 1.6;
+    }
+  }
+}
+
+.tpl-list{
+  background: #fafafa;
+  padding: 0 px2rem(51);
+  h3{
+    color: #fc9605;
+    font-size: px2rem(34);
+    padding: px2rem(35) 0;
+  }
+  ul{
+    li{
+      width: px2rem(272);
+      height: px2rem(404);
+      position: relative;
+      float: left;
+      margin-left: px2rem(35);
+      margin-bottom: px2rem(35);
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.info{
+  text-align: center;
+  padding: px2rem(34) px2rem(66);
+  font-size: px2rem(30);
+  img{
+    width: px2rem(302);
+    height: px2rem(85);
+  }
+  p{
+    padding: px2rem(50) 0;
+    line-height: 1.6;
+    strong{
+      font-size: px2rem(38);
+      color: #fc9605;
+      padding: 0 px2rem(5);
+    }
+  }
+  .btn{
+    width: px2rem(275);
+    height: px2rem(88);
+    line-height: px2rem(88);
+    background: #fc9605;
+    border-radius: px2rem(60);
+    display: inline-block;
+    color: #fff;
+    box-shadow: 0 0 3px 1px #fc9605;
+    font-size: px2rem(46);
+  }
+}

@@ -1,0 +1,16 @@
+/* function */
+
+/* css function */
+.show{display: block;}
+.hide{display: none;}
+.left{float: left;}
+.right{float: right;}
+.clear:after,.clear li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+.clear,.clear li{zoom:1;}
+.auto-hide{overflow:hidden;word-wrap:normal;white-space:nowrap;text-overflow:ellipsis;}
+
+/* scss function */
+$designWidth : 750; //如设计图是750
+@function px2rem( $px ){
+	@return $px*320/$designWidth/20 + rem;
+}
